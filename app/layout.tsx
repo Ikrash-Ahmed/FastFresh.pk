@@ -6,6 +6,8 @@ import { CartProvider } from "@/components/cart-provider"
 import { AuthProvider } from "@/components/auth-provider"
 import { getCurrentUser } from "@/lib/auth"
 import "./globals.css"
+import Script from "next/script"
+
 
 const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
@@ -207,6 +209,8 @@ export default async function RootLayout({
     <html lang="en">
       <head>
         <JsonLd />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3225007713911414"
+     crossorigin="anonymous"></script>
         <meta name="geo.region" content="PK-PB" />
         <meta name="geo.placename" content="Multan" />
         <meta name="geo.position" content="30.1575;71.5249" />
