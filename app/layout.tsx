@@ -7,7 +7,7 @@ import { AuthProvider } from "@/components/auth-provider"
 import { getCurrentUser } from "@/lib/auth"
 import "./globals.css"
 import Script from "next/script"
-
+// redeploy trigger
 
 const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
